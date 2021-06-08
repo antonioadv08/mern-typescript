@@ -1,0 +1,24 @@
+GET http://localhost:5000/videos
+###
+GET http://localhost:5000/videos60ae379c45623a7b5e00766c
+###
+DELETE  http://localhost:5000/videos60ae379a45623a7b5e00766b
+###
+PUT  http://localhost:5000/videos60ae379c45623a7b5e00766c
+Content-Type: application/json
+
+{
+    "title":"docker",
+    "description": "tesuhack"
+
+}
+
+###
+POST   http://localhost:5000/videos
+Content-Type: application/json
+
+{
+    "url":"https://www.youtube.coms/watchss?vs=0zL36sMJ0OTg",
+    "title":"sadsadas",
+"description":"asdasd video"
+}
